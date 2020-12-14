@@ -1,0 +1,39 @@
+Script started on Fri Sep 14 10:03:39 2018
+[?1034hbash-3.2$ exitgcc SpiralOfIntegers-sean.c && ./a.out
+Command: bloop
+invalid command bloop
+
+Command: whereis bloop
+0 is at 0,0
+Command: whereis 3,4
+3 is at 0,1
+Command: whereis 3 4
+3 is at 0,1
+Command: whereis 7
+7 is at 0,-1
+Command: whereis 49
+49 is at 4,-3
+Command: whereis 32767
+32767 is at 91,-84
+Command: whereis 32768
+32768 is at 91,-83
+Command: whereis 8388609
+8388609 is at -1448,-345
+Command: whatsat 3
+comma missing
+Command: whatsat 3, b  bloop
+27 is at 3,0
+Command: whatsat bloop,3
+33 is at 0,3
+Command: whatsat -1448,343
+8387921 is at -1448,343
+Command: whatsat 2000,2000
+15996000 is at 2000,2000
+Command: whatsat 1,1
+2 is at 1,1
+Command: quit
+Goodbye
+bash-3.2$ exit
+exit
+
+Script done on Fri Sep 14 10:05:55 2018
